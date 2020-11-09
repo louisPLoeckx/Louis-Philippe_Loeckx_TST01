@@ -33,7 +33,7 @@ namespace Question_2
                 Console.Write("Do you wish to generate another password?(y/n): ");
                 generatePassword = Console.ReadLine();
                 Console.WriteLine(line);
-
+                password = "";
             } while (generatePassword.ToLower() == "y" || generatePassword.ToLower() == "yes");
 
             
